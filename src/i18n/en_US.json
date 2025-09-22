@@ -10,5 +10,9 @@
   "removedData": "Data deleted",
   "confirmRemove": "Confirm to delete the data in ${name}?",
   "insertEmoji": "Insert Emoji",
-  "removeSpace": "Remove Space"
+  "removeSpace": "Remove Space",
+  "insertLatestTable": "Insert Latest Notes Table",
+  "setting_info": "Hint: Use /crzjgxlb to insert the list of recently updated articles at the cursor position. The number below indicates the maximum length of the list. If it is 0, it means there is no limit to the length.",
+  "setting_table_len": "Maximum length of the list:",
+  "invalid_table_len": "Table length must be greater than 0"
 }

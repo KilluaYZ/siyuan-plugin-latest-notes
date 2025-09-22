@@ -10,5 +10,9 @@
   "removedData": "数据已删除",
   "confirmRemove": "确认删除 ${name} 中的数据？",
   "insertEmoji": "插入表情",
-  "removeSpace": "移除空格"
+  "removeSpace": "移除空格",
+  "insertLatestTable": "插入最近更新列表",
+  "setting_info": "提示：使用/crzjgxlb即可在光标位置处插入最近更新的文章列表。在下方的数字是列表的最大长度，如果为0，则表示长度无限制。",
+  "setting_table_len": "列表最大长度：",
+  "invalid_table_len": "表格长度必须大于0"
 }
