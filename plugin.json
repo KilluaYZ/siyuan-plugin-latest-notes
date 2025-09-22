@@ -7,28 +7,22 @@
   "backends": ["all"],
   "frontends": ["all"],
   "displayName": {
-    "en_US": "Latest Notes Table",
-    "zh_CN": "最近更新文档列表"
+    "default": "最近更新文档列表",
+    "en_US": "Latest Notes Table"
   },
+  "disabledInPublish": false,
   "description": {
     "default": "The plugin will insert the latest documents table in your notebook",
     "zh_CN": "这是用于在笔记本中插入最近更新文档的列表"
   },
   "readme": {
-    "en_US": "README_en_US.md",
-    "zh_CN": "README.md"
+    "default": "README.md",
+    "en_US": "README_en_US.md"
   },
   "funding": {
     "custom": [
-      "https://afdian.net/a/frostime"
+      ""
     ]
   },
-  "keywords": [
-    "latest",
-    "最近",
-    "latest notes",
-    "最近更新",
-    "最近更新文档",
-    "最近更新文档列表"
-  ]
+  "keywords": []
 }
