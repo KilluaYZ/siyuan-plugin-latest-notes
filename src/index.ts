@@ -27,7 +27,8 @@ import {
     openSetting,
     openAttributePanel,
     saveLayout,
-    fetchSyncPost
+    fetchSyncPost,
+    getActiveEditor
 } from "siyuan";
 import "./index.scss";
 import { IMenuItem } from "siyuan/types";
@@ -124,16 +125,9 @@ export default class PluginSample extends Plugin {
                 id: "insertLatestTable",
                 callback(protyle: Protyle) {
                     // 先获取所有的文章
-
-                    fetchSyncPost("/api/notebook/lsNotebooks", {})
-                        .then(resp => {
-                            let notebooks: SiyuanNoteBook[] = resp.data.notebooks;
-                            return notebooks;
-                        })
-                        .then((notebooks: SiyuanNoteBook[]) => {
-                            let notebook = notebooks[0];
-                            return fetchSyncPost("/api/filetree/listDocTree", { notebook: notebook.id, path: '/' });
-                        })
+                    let editor = getActiveEditor();
+                    let notebookId = editor.protyle.notebookId;
+                    fetchSyncPost("/api/filetree/listDocTree", { notebook: notebookId, path: '/' })
                         .then(resp => {
                             let tree: TreeNode[] = resp.data.tree;
                             return tree;

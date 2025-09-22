@@ -80,3 +80,4 @@ interface Window {
         languages: any;
     };
 }
+
