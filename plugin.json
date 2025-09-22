@@ -7,8 +7,8 @@
   "backends": ["all"],
   "frontends": ["all"],
   "displayName": {
-    "default": "最近更新文档列表",
-    "en_US": "Latest Notes Table"
+    "zh_CN": "最近更新文档列表",
+    "default": "Latest Notes Table"
   },
   "disabledInPublish": true,
   "description": {
@@ -16,8 +16,8 @@
     "zh_CN": "这是用于在笔记本中插入最近更新文档的列表"
   },
   "readme": {
-    "default": "README.md",
-    "en_US": "README_en_US.md"
+    "zh_CN": "README.md",
+    "default": "README_en_US.md"
   },
   "funding": {
     "custom": [
