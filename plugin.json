@@ -1,7 +1,7 @@
 {
   "name": "siyuan-plugin-latest-notes",
   "author": "killuayz",
-  "url": "",
+  "url": "https://github.com/KilluaYZ/siyuan-plugin-latest-notes/",
   "version": "1.0.0",
   "minAppVersion": "3.0.0",
   "backends": ["all"],
