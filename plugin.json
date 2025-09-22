@@ -10,7 +10,7 @@
     "default": "最近更新文档列表",
     "en_US": "Latest Notes Table"
   },
-  "disabledInPublish": false,
+  "disabledInPublish": true,
   "description": {
     "default": "The plugin will insert the latest documents table in your notebook",
     "zh_CN": "这是用于在笔记本中插入最近更新文档的列表"
