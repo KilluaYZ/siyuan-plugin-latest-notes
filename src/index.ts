@@ -221,9 +221,9 @@ export default class PluginSample extends Plugin {
         btnsElement[1].addEventListener("click", () => {
             const inputValue = parseInt(inputElement.value);
 
-            // 验证输入值是否大于0
-            if (isNaN(inputValue) || inputValue <= 0) {
-                showMessage(this.i18n.invalid_table_len || "表格长度必须大于0", 3000, "error");
+            // 验证输入值是否大于等于0
+            if (isNaN(inputValue) || inputValue < 0) {
+                showMessage(this.i18n.invalid_table_len || "表格长度必须大于等于0", 3000, "error");
                 inputElement.focus();
                 return;
             }
