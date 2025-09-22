@@ -1,4 +1,4 @@
-[English](https://github.com/siyuan-note/plugin-sample/blob/main/README_en_US.md)
+[English](./README_en_US.md)
 
 # 思源笔记插件——最近更新文档列表
 

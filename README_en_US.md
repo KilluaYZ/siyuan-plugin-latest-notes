@@ -1,4 +1,4 @@
-[中文](https://github.com/siyuan-note/plugin-sample/blob/main/README.md)
+[中文](./README.md)
 
 # SiYuan Note Plugin – Recently Updated Documents List
 
